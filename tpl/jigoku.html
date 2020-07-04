@@ -25,9 +25,10 @@
 hellish world/1.3.33 Server at Jigokutsushin.net Port 80</a>
 </div>
 <div id="fire">
-	<video id="animate" muted="muted" autoplay="autoplay"  width="160" height="320" onended="FireEnd()">
+	<img src="tpl/jigoku.gif">
+	<!-- <video id="animate" muted="muted" autoplay="autoplay" controls="controls"  width="160" height="320" onended="FireEnd()">
 		<source src="tpl/jigoku.mp4" type="video/mp4"/>
-	</video>
+	</video> -->
 </div>
 <div id="start">
 	<div id="title">
@@ -47,6 +48,8 @@ hellish world/1.3.33 Server at Jigokutsushin.net Port 80</a>
 	<a class="end_p">崇尚科学真理 扫除封建迷信</a>
 </div>
 <script type="text/javascript" src="tpl/jigoku.js" charset="UTF-8"></script>
-
+<script type="text/javascript">
+	var int=self.setInterval("FireEnd()",2000);
+	</script>
 </body>
 </html>
